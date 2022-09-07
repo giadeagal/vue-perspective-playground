@@ -76,6 +76,12 @@ html {
     outline: none;
     border: none;
     margin-right: 10px;
+    cursor: pointer;
+    transition: all .1s;
+  }
+
+  button:active {
+    transform: scale(.9);
   }
   
   label{
